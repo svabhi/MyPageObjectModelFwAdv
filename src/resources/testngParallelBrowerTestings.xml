@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Monster Test Suite" verbose="10" parallel="tests">
+	
+	<test name="Naukri Chrome">
+	<parameter name="browserName" value ="chrome"/> 
+		<classes>
+			<class name="com.naukri.qa.testcases.LoginPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Naukri FF">
+	<parameter name="browserName" value ="FF"/> 
+		<classes>
+			<class name="com.naukri.qa.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>

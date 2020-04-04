@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Monster Test Suite" verbose="5">
+   
+	<listeners>
+		<listener class-name="com.qa.extentreportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Naukri_TestSuite_Chrome">
+		<classes>
+		<class name="com.naukri.qa.testcases.LoginPageTest"></class>
+		<class name="com.naukri.qa.testcases.HomePageTest"></class>
+		<class name="com.naukri.qa.testcases.SignUpPageTest"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
