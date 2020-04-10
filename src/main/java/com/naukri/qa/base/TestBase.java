@@ -32,7 +32,7 @@ public class TestBase {
 	 */
 	
 	public TestBase() {
-		String propertyFilePath = "D:\\Abhi\\NewProject\\MyPageObjectModelFw\\src\\main\\java\\com\\naukri\\qa\\config\\config.properties";
+		String propertyFilePath = "D:\\\\Abhi\\\\NewProject\\\\MyPageObjectModelFwAdv\\\\src\\\\main\\\\java\\\\com\\naukri\\\\qa\\\\config\\\\config.properties";
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(propertyFilePath));
 			prop = new Properties();

@@ -1,79 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Monster Test Suite" duration-ms="72432" started-at="2020-04-02T22:47:06 IST" finished-at="2020-04-02T22:48:18 IST">
+  <suite name="Monster Test Suite" duration-ms="50806" started-at="2020-04-10T21:35:24 IST" finished-at="2020-04-10T21:36:14 IST">
     <groups>
     </groups>
-    <test name="Naukri_TestSuite_Chrome" duration-ms="72432" started-at="2020-04-02T22:47:06 IST" finished-at="2020-04-02T22:48:18 IST">
+    <test name="Naukri_TestSuite_Chrome" duration-ms="50806" started-at="2020-04-10T21:35:24 IST" finished-at="2020-04-10T21:36:14 IST">
       <class name="com.naukri.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="invokeBrowser" is-config="true" duration-ms="16988" started-at="2020-04-02T22:47:06 IST" finished-at="2020-04-02T22:47:23 IST">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="invokeBrowser" is-config="true" duration-ms="17271" started-at="2020-04-10T21:35:24 IST" finished-at="2020-04-10T21:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="testLoginPageTitleTest()[pri:1, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="testLoginPageTitleTest" duration-ms="52" started-at="2020-04-02T22:47:23 IST" finished-at="2020-04-02T22:47:23 IST">
+        <test-method status="PASS" signature="testLoginPageTitleTest()[pri:1, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="testLoginPageTitleTest" duration-ms="30" started-at="2020-04-10T21:35:41 IST" finished-at="2020-04-10T21:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageTitleTest -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="closeDown" is-config="true" duration-ms="783" started-at="2020-04-02T22:47:23 IST" finished-at="2020-04-02T22:47:23 IST">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="closeDown" is-config="true" duration-ms="1596" started-at="2020-04-10T21:35:41 IST" finished-at="2020-04-10T21:35:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="invokeBrowser" is-config="true" duration-ms="13275" started-at="2020-04-02T22:47:23 IST" finished-at="2020-04-02T22:47:37 IST">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="invokeBrowser" is-config="true" duration-ms="14186" started-at="2020-04-10T21:35:43 IST" finished-at="2020-04-10T21:35:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="testMonsterImage()[pri:2, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="testMonsterImage" duration-ms="89" started-at="2020-04-02T22:47:37 IST" finished-at="2020-04-02T22:47:37 IST">
+        <test-method status="PASS" signature="testMonsterImage()[pri:2, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="testMonsterImage" duration-ms="85" started-at="2020-04-10T21:35:57 IST" finished-at="2020-04-10T21:35:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMonsterImage -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="closeDown" is-config="true" duration-ms="762" started-at="2020-04-02T22:47:37 IST" finished-at="2020-04-02T22:47:38 IST">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="closeDown" is-config="true" duration-ms="818" started-at="2020-04-10T21:35:57 IST" finished-at="2020-04-10T21:35:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="invokeBrowser" is-config="true" duration-ms="13292" started-at="2020-04-02T22:47:38 IST" finished-at="2020-04-02T22:47:51 IST">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="invokeBrowser" is-config="true" duration-ms="13418" started-at="2020-04-10T21:35:58 IST" finished-at="2020-04-10T21:36:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="testLoginFunctionality()[pri:3, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="testLoginFunctionality" duration-ms="2256" started-at="2020-04-02T22:47:51 IST" finished-at="2020-04-02T22:47:53 IST">
+        <test-method status="PASS" signature="testLoginFunctionality()[pri:3, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="testLoginFunctionality" duration-ms="2127" started-at="2020-04-10T21:36:11 IST" finished-at="2020-04-10T21:36:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFunctionality -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@23d2a7e8]" name="closeDown" is-config="true" duration-ms="806" started-at="2020-04-02T22:47:53 IST" finished-at="2020-04-02T22:47:54 IST">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.naukri.qa.testcases.LoginPageTest@6b57696f]" name="closeDown" is-config="true" duration-ms="1230" started-at="2020-04-10T21:36:13 IST" finished-at="2020-04-10T21:36:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
       </class> <!-- com.naukri.qa.testcases.LoginPageTest -->
-      <class name="com.naukri.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="invokeBrower()[pri:0, instance:com.naukri.qa.testcases.HomePageTest@7a9273a8]" name="invokeBrower" is-config="true" duration-ms="15919" started-at="2020-04-02T22:47:54 IST" finished-at="2020-04-02T22:48:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokeBrower -->
-        <test-method status="PASS" signature="homePagetitleTest()[pri:1, instance:com.naukri.qa.testcases.HomePageTest@7a9273a8]" name="homePagetitleTest" duration-ms="3248" started-at="2020-04-02T22:48:10 IST" finished-at="2020-04-02T22:48:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePagetitleTest -->
-        <test-method status="PASS" signature="testuserId()[pri:2, instance:com.naukri.qa.testcases.HomePageTest@7a9273a8]" name="testuserId" duration-ms="1172" started-at="2020-04-02T22:48:13 IST" finished-at="2020-04-02T22:48:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testuserId -->
-        <test-method status="PASS" signature="testUserLocation()[pri:3, instance:com.naukri.qa.testcases.HomePageTest@7a9273a8]" name="testUserLocation" duration-ms="930" started-at="2020-04-02T22:48:14 IST" finished-at="2020-04-02T22:48:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUserLocation -->
-        <test-method status="PASS" signature="d()[pri:4, instance:com.naukri.qa.testcases.HomePageTest@7a9273a8]" name="d" duration-ms="1176" started-at="2020-04-02T22:48:15 IST" finished-at="2020-04-02T22:48:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- d -->
-        <test-method status="PASS" signature="testUserMailId()[pri:5, instance:com.naukri.qa.testcases.HomePageTest@7a9273a8]" name="testUserMailId" duration-ms="812" started-at="2020-04-02T22:48:16 IST" finished-at="2020-04-02T22:48:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUserMailId -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.naukri.qa.testcases.HomePageTest@7a9273a8]" name="closeDown" is-config="true" duration-ms="798" started-at="2020-04-02T22:48:17 IST" finished-at="2020-04-02T22:48:18 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDown -->
-      </class> <!-- com.naukri.qa.testcases.HomePageTest -->
     </test> <!-- Naukri_TestSuite_Chrome -->
   </suite> <!-- Monster Test Suite -->
 </testng-results>
